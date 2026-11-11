@@ -17,7 +17,7 @@ Each value is unique, making it possible to identify every node and determine it
 
 #### 🧪 Examples
 - **A Complete Tree Reconstruction 🌲**
-    - **Input:**
+    - **Input:** <br>
         ![](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
         ```
         inorder = [9, 3, 15, 20, 7]
