@@ -138,12 +138,12 @@ class TestSolution(unittest.TestCase):
     @timeout(1)
     def _run_case(
         self,
-        preorder: List[int],
+        postorder: List[int],
         inorder: List[int]
     ) -> Optional[TreeNode]:
         """⚡ Run one tree-construction case with a timeout guard."""
         return self.__solution.buildTree(
-            preorder=preorder,
+            postorder=postorder,
             inorder=inorder
         )
 
