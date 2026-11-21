@@ -1,2 +1,3 @@
 from .recursiveDFS import RecursiveDFS
-__all__ = ['RecursiveDFS']
+from .iterativeDFS import IterativeDFS
+__all__ = ['RecursiveDFS', 'IterativeDFS']
